@@ -36,7 +36,7 @@ clap = { version = "4.3", features = ["derive"] }
 num-traits = "0.2"
 num-derive = "0.4.2"
 serde = { version = "1.0", features = ["derive"] }
-stwo-prover = { git = "https://github.com/lztxwd6666/stwo"}
+stwo-prover = { git = "https://github.com/lztxwd6666/stwo", rev="983b742"}
 tiny-keccak = { version = "2.0.2", features = ["keccak"] }
 
 # This profile is used for CI tests. Optimized for faster compilation vs. absolute speed.
